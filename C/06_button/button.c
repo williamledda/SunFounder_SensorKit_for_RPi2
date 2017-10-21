@@ -1,9 +1,13 @@
 #include <wiringPi.h>
 #include <stdio.h>
 
-#define BtnPin		0
-#define Gpin		1
-#define Rpin		2
+//#define BtnPin		0
+//#define Gpin		1
+//#define Rpin		2
+
+#define BtnPin	21
+#define Gpin	0
+#define Rpin	1
 
 void LED(char* color)
 {
